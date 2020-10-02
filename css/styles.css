@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Fira Code', monospace;
+  box-sizing: border-box;
+  background-color: aliceblue;
+}
+.top-container {
+  background-color: #88b8c7;
+  padding-top: 100px;
+  z-index: -2;
+  position: relative;
+  height: auto;
+  overflow: auto;
+  line-height: 2;
+}
+
+h1 {
+  margin:  45px auto 0 auto;
+  font-family: 'Montserrat Alternates';
+  font-size: 3.75rem;
+  color: rgb(58, 56, 75);
+}
+
+h2,h3 {
+  color: rgb(44, 44, 90);
+  font-weight: bolder;
+}
+.by-line {
+  font-size: 1.56rem;
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+.code {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 40%;
+  bottom: -45px; 
+  opacity: 0.2;
+}
+.mountain {
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+  bottom: -11px;
+}
+
+.middle-container {
+
+}
+.profile {
+  width: 30%;
+  margin: auto;
+}
+
+#profile-img {
+  margin-top: 50px;
+  border-radius: 50%;
+}
+
+#computer-img {
+  border-radius:  50%;
+}
+
+.bottom-container {
+
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 80px;
+  z-index: -1;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 350px;
+  top: 280px;
+}
+
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skills-pic {
+  width: 30%;
+  margin: 30px;
+}
+
+#meditate-img {
+  float: left;
+}
+
+#computer-img {
+  float: right;
+}
+
+.clear-right {
+  clear: both;
+}
+
+hr {
+  border: none;
+  border-top: 8px dotted gray;
+  width: 8%;
+  height: 0;
+  margin: 50px auto;
+}
+
+.skills h2 {
+  margin-bottom: 0px;
+}
+
+.row-one {
+  margin-top: 100px;
+}
